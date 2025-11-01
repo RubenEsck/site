@@ -1,0 +1,63 @@
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(Mi\ logotipo.png) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(49, 47, 51);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgb(62, 58, 66); 
+    color: rgb(255, 255, 255);
+}
+
+.boton-redireccion{
+    background-color: rgb(137, 135, 140);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    display:  inline-block;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+ }
+
+ .boton-redireccion:hover{
+    background-color: rgb(70, 68, 71);
+ }
+
+ #boton-regresar {
+  /* Apariencia */
+  background-color: #007bff; /* Un azul vibrante */
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde por defecto */
+  border-radius: 5px; /* Bordes redondeados suaves */
+  cursor: pointer; /* Cambia el cursor para indicar que es clickeable */
+  
+  /* Tipografía */
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none; /* Asegura que no haya subrayado */
+  
+  /* Transición para efectos suaves */
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Efecto al pasar el ratón (hover) */
+#boton-regresar:hover {
+  background-color: #0056b3; /* Un azul más oscuro al pasar el ratón */
+}
+
+/* Efecto al hacer click (active) */
+#boton-regresar:active {
+  background-color: #004085; /* Un color aún más oscuro al presionar */
+  transform: translateY(1px); /* Pequeño desplazamiento para dar sensación de 'presión' */
+}

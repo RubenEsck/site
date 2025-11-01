@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #868282;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: url(pexels-bala-py-763103.jpg);
+    background-size: cover;
+}
+
+.contenedor-contacto {
+    background: #1d1c1caf;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 25px 0;
+}
+
+/* Estilos de Información de Contacto */
+.info-contacto p {
+    text-align: left;
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.info-contacto i {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.info-contacto a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info-contacto a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de Redes Sociales */
+.iconos-redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espacio entre los iconos */
+    margin-top: 20px;
+}
+
+.iconos-redes a {
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.iconos-redes a:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+/* Colores Específicos para cada Red Social */
+.facebook { background-color: #3b5998; }
+
+
+#boton-regresar {
+  /* Apariencia */
+  background-color: #2f303182; /* Un azul vibrante */
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde por defecto */
+  border-radius: 5px; /* Bordes redondeados suaves */
+  cursor: pointer; /* Cambia el cursor para indicar que es clickeable */
+  
+  /* Tipografía */
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none; /* Asegura que no haya subrayado */
+  
+  /* Transición para efectos suaves */
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Efecto al pasar el ratón (hover) */
+#boton-regresar:hover {
+  background-color: #0056b3; /* Un azul más oscuro al pasar el ratón */
+}
+
+/* Efecto al hacer click (active) */
+#boton-regresar:active {
+  background-color: #004085; /* Un color aún más oscuro al presionar */
+  transform: translateY(1px); /* Pequeño desplazamiento para dar sensación de 'presión' */
+
+  }
+

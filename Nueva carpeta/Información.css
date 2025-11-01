@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(pexels-bala-py-763103.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+     align-items: center;
+    position: relative;
+
+}
+
+.Menú{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.Logo{
+}
+
+.Menú .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.Menú .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: aliceblue;
+    display: block;
+    font-weight: 600;
+}
+#Menú{
+    display: none;
+}
+
+.Menú-Icono{
+width: 25px;
+}
+    
+
+.Menú label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: rgba(57, 58, 58, 0.68);
+    border-radius: 30px;
+}
+
+.header-txt h1{
+    font-size: 70px;
+    color: aliceblue;
+}
+
+#boton-regresar {
+  /* Apariencia */
+  background-color: #2f303182; /* Un azul vibrante */
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde por defecto */
+  border-radius: 5px; /* Bordes redondeados suaves */
+  cursor: pointer; /* Cambia el cursor para indicar que es clickeable */
+  
+  /* Tipografía */
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none; /* Asegura que no haya subrayado */
+  
+  /* Transición para efectos suaves */
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Efecto al pasar el ratón (hover) */
+#boton-regresar:hover {
+  background-color: #0056b3; /* Un azul más oscuro al pasar el ratón */
+}
+
+/* Efecto al hacer click (active) */
+#boton-regresar:active {
+  background-color: #004085; /* Un color aún más oscuro al presionar */
+  transform: translateY(1px); /* Pequeño desplazamiento para dar sensación de 'presión' */
+}

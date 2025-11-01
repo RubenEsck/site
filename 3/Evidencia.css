@@ -1,0 +1,70 @@
+body {
+    font-family:Arial, Helvetica, sans-serif
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background: url(pexels-bala-py-763103.jpg);
+    background-size: cover;
+    color: #ffffff;
+
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ffffff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Contenedor principal de las imágenes (usa Flexbox para la disposición) */
+.galeria-contenedor {
+    display: flex; /* Habilita el layout flexible */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan si la pantalla es pequeña */
+    gap: 20px; /* Espacio entre las imágenes */
+    max-width: 1000px;
+    margin: 0 auto; /* Centra el contenedor completo */
+    padding: 10px;
+}
+
+/* Estilos para las etiquetas de imagen */
+.galeria-contenedor img {
+    /* Define el tamaño fijo para un diseño uniforme */
+    width: 220px;
+    
+    /* Propiedades visuales *//* Asegura que la imagen cubra el área sin distorsión */
+    border: 5px solid rgb(111, 119, 119);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; /* Esquinas redondeadas */
+    
+}
+
+#boton-regresar {
+  /* Apariencia */
+  background-color: #2f303182; /* Un azul vibrante */
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde por defecto */
+  border-radius: 5px; /* Bordes redondeados suaves */
+  cursor: pointer; /* Cambia el cursor para indicar que es clickeable */
+  
+  /* Tipografía */
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none; /* Asegura que no haya subrayado */
+  
+  /* Transición para efectos suaves */
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Efecto al pasar el ratón (hover) */
+#boton-regresar:hover {
+  background-color: #0056b3; /* Un azul más oscuro al pasar el ratón */
+}
+
+/* Efecto al hacer click (active) */
+#boton-regresar:active {
+  background-color: #004085; /* Un color aún más oscuro al presionar */
+  transform: translateY(1px); /* Pequeño desplazamiento para dar sensación de 'presión' */
